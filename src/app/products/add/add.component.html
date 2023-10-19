@@ -1,0 +1,102 @@
+<div class="container   bg-body-secondary mt-5  p-5" style="text-align: center;">
+    <form (ngSubmit)="addNewProduct()" [formGroup]="addFormModel" action="" class="row" style="text-align: center;" >
+        <h4 class="fs-5 fw-3 text-center text-secondary">Add New Product</h4>
+        <div  class="col-12">
+          <label for="pname" class="form-label">Product id</label><br>
+          <input formControlName="id" type="text" class="form-control" id="pid"><br>
+          <div *ngIf="this.addFormModel.get('id')?.errors&&this.addFormModel.get('id')?.touched">
+            <p class="text-danger">INVALID DESCRIPTION</p>
+
+          </div>
+
+        </div>
+        <div  class="col-12">
+          <label for="price" class="form-label">name</label>
+          <input formControlName="productName" type="text" class="form-control" id="c1">
+          <div *ngIf="this.addFormModel.get('productName')?.errors&&this.addFormModel.get('productName')?.touched">
+            <p class="text-danger">INVALID DESCRIPTION</p>
+
+          </div>
+
+        </div>
+        <div  class="col-12">
+          <label for="description" class="form-label">Description</label>
+          <input formControlName="description" type="text" class="form-control text-center" id="c2" placeholder="Add description">
+          <div *ngIf="this.addFormModel.get('description')?.errors&&this.addFormModel.get('description')?.touched">
+            <p class="text-danger">INVALID DESCRIPTION</p>
+
+          </div>
+
+        </div>
+        
+        <div  class="col-12">
+            <label for="vendor" class="form-label">category id</label>
+            <input formControlName="categoryId" type="text" class="form-control" id="c3">
+            <div *ngIf="this.addFormModel.get('categoryId')?.errors&&this.addFormModel.get('categoryId')?.touched">
+              <p class="text-danger">INVALID DESCRIPTION</p>
+
+            </div>
+
+          </div>
+          <div  class="col-12">
+            <label for="vendor" class="form-label">price</label>
+            <input formControlName="price" type="text" class="form-control" id="c4">
+            <div *ngIf="this.addFormModel.get('price')?.errors&&this.addFormModel.get('price')?.touched">
+              <p class="text-danger">INVALID DESCRIPTION</p>
+
+            </div>
+
+          </div>
+          <div class="col-12">
+            <label for="vendor" class="form-label">is_available</label>
+            <input formControlName="is_available" type="text" class="form-control" id="c5">
+            <div  *ngIf="this.addFormModel.get('is_available')?.errors&&this.addFormModel.get('is_available')?.touched">
+              <p class="text-danger">INVALID DESCRIPTION</p>
+
+            </div>
+          </div>
+          <div  class="col-12">
+            <label for="vendor" class="form-label">product image</label>
+            <input formControlName="image" type="text" class="form-control" id="c6">
+            <div *ngIf="this.addFormModel.get('image')?.errors&&this.addFormModel.get('image')?.touched">
+              <p class="text-danger">INVALID DESCRIPTION</p>
+
+            </div>
+
+          </div>
+          <div  class="col-12">
+            <label for="vendor" class="form-label">rating</label>
+            <input formControlName="rating" type="text" class="form-control" id="c7">
+            <div *ngIf="this.addFormModel.get('rating')?.errors&&this.addFormModel.get('rating')?.touched">
+              <p class="text-danger">INVALID DESCRIPTION</p>
+
+            </div>
+
+          </div>
+          <div  class="col-12">
+            <label for="vendor" class="form-label">review</label>
+            <input formControlName="review" type="text" class="form-control" id="c8">
+            <div *ngIf="this.addFormModel.get('review')?.errors&&this.addFormModel.get('review')?.touched">
+              <p class="text-danger">INVALID DESCRIPTION</p>
+
+            </div>
+
+          </div>
+          <div class="col-12">
+            <label for="vendor" class="form-label">warranty</label>
+            <input formControlName="warranty" type="text" class="form-control" id="Warrenty">
+            <div  *ngIf="this.addFormModel.get('warranty')?.errors&&this.addFormModel.get('warranty')?.touched">
+              <p class="text-danger">INVALID DESCRIPTION</p>
+
+            </div>
+
+          </div>
+         
+
+        
+       
+        <div class="col-12 text-center">
+          <button (click)="addNewProduct()" type="submit" class="btn btn-outline-primary">Add</button>
+        </div>
+      </form>
+</div>

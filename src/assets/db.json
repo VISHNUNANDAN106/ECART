@@ -1,0 +1,136 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Mens Shoes",
+      "categoryId": 2,
+      "description": "mens casual shoe",
+      "price": 2000,
+      "is_available": true,
+      "image": "https://i.postimg.cc/152d7Mvx/pexels-jordan-hyde-1070360.jpg",
+      "rating": 4.4,
+      "review": 150,
+      "warranty": 1
+    },
+    {
+      "id": 3,
+      "productName": "Kids Shoes",
+      "categoryId": 3,
+      "description": "kids casual shoe",
+      "price": "800",
+      "is_available": true,
+      "image": "https://i.postimg.cc/mZXxMjBf/Sky-Air-Jordan-1-White-Sport-Blue-Black-PS.jpg",
+      "rating": 4.5,
+      "review": 50,
+      "warranty": 2
+    },
+    {
+      "id": 5,
+      "productName": "Womens Shoes",
+      "categoryId": 4,
+      "description": "ladies casual shoe",
+      "price": "1000",
+      "is_available": true,
+      "image": "https://i.postimg.cc/BQhqSFmN/iyt9q-512.webp",
+      "rating": 5,
+      "review": 60,
+      "warranty": 1
+    },
+    {
+      "id": 6,
+      "productName": "formal Shoes",
+      "categoryId": 2,
+      "description": "formal casual shoe",
+      "price": "3000",
+      "is_available": true,
+      "image": "https://i.postimg.cc/RZcX172L/pp4tf-512.webp",
+      "rating": 4,
+      "review": 50,
+      "warranty": 1
+    },
+    {
+      "id": 7,
+      "productName": "Kids Casual Shoe",
+      "categoryId": 3,
+      "description": " casual shoe",
+      "price": 900,
+      "is_available": true,
+      "image": "https://i.postimg.cc/bvSbHpGc/product-jpeg.jpg",
+      "rating": 4,
+      "review": 70,
+      "warranty": 1
+    },
+    {
+      "id": 8,
+      "productName": "Athletic shoes",
+      "categoryId": 2,
+      "description": "athletics shoes",
+      "price": 4000,
+      "is_available": true,
+      "image": "https://i.postimg.cc/6p1XdNRX/6aa906b7b97055f8557c148deb9d2436.jpg",
+      "rating": 3,
+      "review": 70,
+      "warranty": 1
+    },
+    {
+      "id": 10,
+      "productName": "Brogue shoes",
+      "categoryId": 2,
+      "description": "Brogue shoes",
+      "price": "2000",
+      "is_available": true,
+      "image": "https://i.postimg.cc/rp527Zz0/1116-Curry-Rancho-Crust-1.webp",
+      "rating": 4,
+      "review": 70,
+      "warranty": 1
+    },
+    {
+      "id": 11,
+      "productName": "Boat shoes",
+      "categoryId": 2,
+      "description": "Boat shoes",
+      "price": 5000,
+      "is_available": true,
+      "image": "https://i.postimg.cc/FR18NPHV/MP000000018815685-437-Wx649-H-202308190234031.jpg",
+      "rating": 4,
+      "review": 70,
+      "warranty": 1
+    },
+    {
+      "id": 12,
+      "productName": "clogs shoes",
+      "categoryId": 2,
+      "description": "clogs shoes",
+      "price": "3000",
+      "is_available": true,
+      "image": "https://i.postimg.cc/qvWYGcJm/41-GGFlghqy-L-AC-SR300-300.jpg",
+      "rating": 4,
+      "review": 70,
+      "warranty": 1
+    },
+    {
+      "id": 18,
+      "productName": "m mens shoes",
+      "categoryId": 2,
+      "description": "abcd",
+      "price": "1000",
+      "is_available": "true",
+      "image": "https://i.postimg.cc/152d7Mvx/pexels-jordan-hyde-1070360.jpg",
+      "rating": "2",
+      "review": "3",
+      "warranty": "1"
+    },
+    {
+      "id": "4",
+      "productName": "m mens shoes",
+      "categoryId": "2",
+      "description": "abcd",
+      "price": "20",
+      "is_available": "yes",
+      "image": "https://i.postimg.cc/rs1MMzSX/original-imagqyxedye8emgj.webp",
+      "rating": "1",
+      "review": "5",
+      "warranty": "6"
+    }
+  ]
+}

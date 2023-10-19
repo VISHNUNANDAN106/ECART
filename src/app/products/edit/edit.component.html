@@ -1,0 +1,28 @@
+<h2 class="mt-5 text-center " style="color: black;">EDIT PRODUCT</h2>
+
+   <form (ngSubmit)="update()" action="" class="w-50 mt-5  container text-center"  >
+
+       
+          <input [(ngModel)]="pdata.productName"  type="text" class="form-control mt-2" id="c1" placeholder="name" name="productName">
+
+          <input [(ngModel)]="pdata.categoryId" type="text" class="form-control mt-2" id="c2" placeholder="category id" name="categoryid">
+
+        
+            <input [(ngModel)]="pdata.description" type="text" class="form-control mt-2" id="c3" placeholder="description" name="description">
+
+            <input [(ngModel)]="pdata.price"   type="text" class="form-control mt-2" id="c4" placeholder="price" name="price">
+
+            <input [(ngModel)]="pdata.is_available"  type="text" class="form-control mt-2" id="c5" placeholder="is_available" name="is_available">
+           
+            <input [(ngModel)]="pdata.image" type="text" class="form-control mt-2" id="c6" placeholder="image" name="image">
+
+            <input [(ngModel)]="pdata.rating"  type="text" class="form-control mt-2" id="c7" placeholder="rating" name="rating">
+
+            <input [(ngModel)]="pdata.review"  type="text" class="form-control mt-2" id="c8" placeholder="review" name="review">
+
+            <input  [(ngModel)]="pdata.warranty" type="text" class="form-control mt-2" id="c9" placeholder="warranty" name="warrenty">
+
+             <button type="submit" class="btn btn-outline-primary mt-5 mb-5">UPDATE</button>
+    
+    
+            </form>
